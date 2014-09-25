@@ -62,6 +62,9 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 
 nmap <F8> :TagbarToggle<CR>
 
+let mapleader = "\<Space>"
+nnoremap <Leader>w :w<CR>
+
 " Pytest
 au FileType python nnoremap <silent><Leader>s <Esc>:Pytest next<CR>
 au FileType python nnoremap <silent><Leader>f <Esc>:Pytest file looponfail<CR>
