@@ -70,3 +70,7 @@ au FileType python nnoremap <silent><Leader>s <Esc>:Pytest next<CR>
 au FileType python nnoremap <silent><Leader>f <Esc>:Pytest file looponfail<CR>
 au FileType python nnoremap <silent><Leader>c <Esc>:Pytest class<CR>
 au FileType python nnoremap <silent><Leader>m <Esc>:Pytest method<CR>
+au FileType python nnoremap <silent><Leader>p <Esc>:Pytest project<CR>
+
+" jedi-vim
+let g:jedi#popup_on_dot = 0
