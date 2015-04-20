@@ -1,9 +1,6 @@
 [submodule "jedi-vim"]
 	path = jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "pytest.vim"]
-	path = pytest.vim
-	url = https://github.com/srlobo/pytest.vim.git
 [submodule "tagbar"]
 	path = tagbar
 	url = https://github.com/majutsushi/tagbar
