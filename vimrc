@@ -74,3 +74,8 @@ au FileType python nnoremap <silent><Leader>p <Esc>:Pytest project<CR>
 
 " jedi-vim
 let g:jedi#popup_on_dot = 0
+
+"nerdtree
+autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
