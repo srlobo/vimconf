@@ -60,9 +60,11 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
 
-nmap <F8> :TagbarToggle<CR>
-
 let mapleader = "\<Space>"
+
+nmap <F8> :TagbarToggle<CR>
+nmap <silent><Leader>t <Esc>:TagbarToggle<CR>
+
 nnoremap <Leader>w :w<CR>
 
 " Pytest
@@ -77,6 +79,7 @@ let g:jedi#popup_on_dot = 0
 
 "nerdtree
 nmap <F7> :NERDTreeToggle<CR>
+nmap <silent><Leader>n <Esc>:NERDTreeToggle<CR>
 "autocmd vimenter * NERDTree
 "autocmd VimEnter * wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
