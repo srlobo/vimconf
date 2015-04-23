@@ -19,3 +19,6 @@
 [submodule "vim-py-encoding"]
 	path = vim-py-encoding
 	url = https://github.com/srlobo/vim-py-encoding.git
+[submodule "vim-git"]
+	path = vim-git
+	url = https://github.com/tpope/vim-git.git
