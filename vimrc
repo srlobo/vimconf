@@ -48,6 +48,7 @@ set softtabstop=4 " makes the spaces feel like real tabs
 set shiftwidth=4
 set notitle
 set modeline
+set nohlsearch
 
 syntax on
 
