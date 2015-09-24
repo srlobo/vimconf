@@ -64,7 +64,7 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 let mapleader = "\<Space>"
 
 nmap <F8> :TagbarToggle<CR>
-nmap <silent><Leader>t <Esc>:TagbarToggle<CR>
+"nmap <silent><Leader>t <Esc>:TagbarToggle<CR>
 
 nnoremap <Leader>w :w<CR>
 
@@ -84,3 +84,25 @@ nmap <silent><Leader>n <Esc>:NERDTreeToggle<CR>
 "autocmd vimenter * NERDTree
 "autocmd VimEnter * wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_python_checkers = ['pep8']
+
+" Add the virtualenv's site-packages to vim path
+py << EOF
+import os.path
+import sys
+import vim
+if 'VIRTUAL_ENV' in os.environ:
+	project_base_dir = os.environ['VIRTUAL_ENV']
+	sys.path.insert(0, project_base_dir)
+	activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+	execfile(activate_this, dict(__file__=activate_this))
+EOF

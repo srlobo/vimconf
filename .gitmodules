@@ -22,3 +22,12 @@
 [submodule "vim-git"]
 	path = vim-git
 	url = https://github.com/tpope/vim-git.git
+[submodule "TaskList.vim"]
+	path = TaskList.vim
+	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "ropevim"]
+	path = ropevim
+	url = https://github.com/python-rope/ropevim.git
+[submodule "syntastic"]
+	path = syntastic
+	url = https://github.com/scrooloose/syntastic.git
