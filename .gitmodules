@@ -34,3 +34,9 @@
 [submodule "vim-airline"]
 	path = vim-airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "rope"]
+	path = rope
+	url = https://github.com/python-rope/rope.git
+[submodule "ropemode"]
+	path = ropemode
+	url = https://github.com/python-rope/ropemode.git

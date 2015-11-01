@@ -95,17 +95,15 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['pep8']
 
-" Add the virtualenv's site-packages to vim path
-py << EOF
-import os.path
-import sys
-import vim
-if 'VIRTUAL_ENV' in os.environ:
-	project_base_dir = os.environ['VIRTUAL_ENV']
-	sys.path.insert(0, project_base_dir)
-	activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-	execfile(activate_this, dict(__file__=activate_this))
-EOF
-
 let g:airline_theme='zenburn'
 let g:airline_powerline_fonts = 1
+
+
+py <<EOF
+import sys
+import os
+homedir = os.environ["HOME"]
+sys.path.insert(0, os.path.join(homedir, ".vim/rope/"))
+sys.path.insert(0, os.path.join(homedir, ".vim/ropemode/"))
+sys.path.insert(0, os.path.join(homedir, ".vim/bundle/ropevim"))
+EOF
