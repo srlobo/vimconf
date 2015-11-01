@@ -75,6 +75,8 @@ au FileType python nnoremap <silent><Leader>c <Esc>:Pytest class<CR>
 au FileType python nnoremap <silent><Leader>m <Esc>:Pytest method<CR>
 au FileType python nnoremap <silent><Leader>p <Esc>:Pytest project<CR>
 
+let python_highlight_all=1
+
 " jedi-vim
 let g:jedi#popup_on_dot = 0
 
