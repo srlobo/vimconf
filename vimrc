@@ -109,3 +109,9 @@ sys.path.insert(0, os.path.join(homedir, ".vim/rope/"))
 sys.path.insert(0, os.path.join(homedir, ".vim/ropemode/"))
 sys.path.insert(0, os.path.join(homedir, ".vim/bundle/ropevim"))
 EOF
+
+set wildmenu
+set wildmode=full
+source $VIMRUNTIME/menu.vim
+set wildcharm=<C-Z>
+map <silent><leader>m <ESC>:emenu <C-Z>
