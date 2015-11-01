@@ -31,3 +31,6 @@
 [submodule "syntastic"]
 	path = syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = https://github.com/bling/vim-airline.git
