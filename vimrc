@@ -1,3 +1,12 @@
+let g:pathogen_disabled = []
+if v:version < '703'
+	call add(g:pathogen_disabled, 'unite.vim')
+
+endif
+if !has('python')
+	call add(g:pathogen_disabled, 'jedi-vim')
+endif
+
 call pathogen#infect()
 if has("statusline")
 	set laststatus=2
@@ -101,6 +110,7 @@ let g:airline_theme='zenburn'
 let g:airline_powerline_fonts = 1
 
 
+if has('python')
 py <<EOF
 import sys
 import os
@@ -109,6 +119,7 @@ sys.path.insert(0, os.path.join(homedir, ".vim/rope/"))
 sys.path.insert(0, os.path.join(homedir, ".vim/ropemode/"))
 sys.path.insert(0, os.path.join(homedir, ".vim/bundle/ropevim"))
 EOF
+endif
 
 set wildmenu
 set wildmode=full
