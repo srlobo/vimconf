@@ -49,3 +49,6 @@
 [submodule "unite.vim"]
 	path = unite.vim
 	url = https://github.com/Shougo/unite.vim.git
+[submodule "vim-pug"]
+	path = vim-pug
+	url = https://github.com/digitaltoad/vim-pug.git
