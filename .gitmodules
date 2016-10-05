@@ -52,3 +52,6 @@
 [submodule "vim-pug"]
 	path = vim-pug
 	url = https://github.com/digitaltoad/vim-pug.git
+[submodule "editorconfig-vim"]
+	path = editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
