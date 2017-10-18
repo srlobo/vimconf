@@ -28,9 +28,6 @@
 [submodule "ropevim"]
 	path = ropevim
 	url = https://github.com/python-rope/ropevim.git
-[submodule "syntastic"]
-	path = syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "vim-airline"]
 	path = vim-airline
 	url = https://github.com/bling/vim-airline.git
@@ -55,3 +52,9 @@
 [submodule "editorconfig-vim"]
 	path = editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "vim-airline-themes"]
+	path = vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "syntastic"]
+	path = syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
