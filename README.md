@@ -14,6 +14,7 @@ Incluye:
 * vim-python-pep8-indent: Indentación python según pep8
 
 Para usarlo:
+```shell
 git clone https://github.com/srlobo/vimconf.git
 ln -s vimconf/vim .vim
 ln -s vimconf/vimrc .vimrc
@@ -22,7 +23,7 @@ git submodule init
 git submodule update
 git submodule foreach git submodule init
 git submodule foreach git submodule update
-
+```
 
 Cosas a mirar:
 http://www.sontek.net/blog/2011/05/07/turning_vim_into_a_modern_python_ide.html
