@@ -126,3 +126,5 @@ set wildmode=full
 source $VIMRUNTIME/menu.vim
 set wildcharm=<C-Z>
 map <silent><leader>m <ESC>:emenu <C-Z>
+
+autocmd FileType java setlocal omnifunc=javacomplete#Complete

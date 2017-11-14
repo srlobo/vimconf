@@ -58,3 +58,6 @@
 [submodule "syntastic"]
 	path = syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim-javacomplete2"]
+	path = vim-javacomplete2
+	url = https://github.com/artur-shaik/vim-javacomplete2.git
