@@ -61,3 +61,6 @@
 [submodule "vim-javacomplete2"]
 	path = vim-javacomplete2
 	url = https://github.com/artur-shaik/vim-javacomplete2.git
+[submodule "typescript-vim"]
+	path = typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
