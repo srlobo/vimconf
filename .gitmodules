@@ -64,3 +64,6 @@
 [submodule "vim-es6"]
 	path = vim-es6
 	url = https://github.com/isRuslan/vim-es6.git
+[submodule "typescript-vim"]
+	path = typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
