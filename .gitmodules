@@ -61,3 +61,6 @@
 [submodule "vim-javacomplete2"]
 	path = vim-javacomplete2
 	url = https://github.com/artur-shaik/vim-javacomplete2.git
+[submodule "vim-es6"]
+	path = vim-es6
+	url = https://github.com/isRuslan/vim-es6.git
