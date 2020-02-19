@@ -61,6 +61,13 @@ set nohlsearch
 
 syntax on
 
+" Indentación en JS/TS
+autocmd FileType javascript set tabstop=2
+autocmd FileType javascript set softtabstop=2
+autocmd FileType javascript set shiftwidth=2
+autocmd FileType typescript set tabstop=2
+autocmd FileType typescript set softtabstop=2
+autocmd FileType typescript set shiftwidth=2
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
