@@ -67,3 +67,6 @@
 [submodule "typescript-vim"]
 	path = typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "vim-js-indent"]
+	path = vim-js-indent
+	url = https://github.com/jason0x43/vim-js-indent.git

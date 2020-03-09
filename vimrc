@@ -16,6 +16,9 @@ set t_Co=256
 "let g:zenburn_alternate_Visual = 1
 "let g:zenburn_high_Contrast = 1
 colorscheme zenburn
+"set background=light
+"colorscheme PaperColor
+"colorscheme github
 
 set ts=4
 set sw=4
@@ -61,6 +64,13 @@ set nohlsearch
 
 syntax on
 
+" Indentación en JS/TS
+autocmd FileType javascript set tabstop=2
+autocmd FileType javascript set softtabstop=2
+autocmd FileType javascript set shiftwidth=2
+autocmd FileType typescript set tabstop=2
+autocmd FileType typescript set softtabstop=2
+autocmd FileType typescript set shiftwidth=2
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
