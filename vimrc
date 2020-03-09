@@ -68,9 +68,13 @@ syntax on
 autocmd FileType javascript set tabstop=2
 autocmd FileType javascript set softtabstop=2
 autocmd FileType javascript set shiftwidth=2
+autocmd FileType javascript set smartindent
+autocmd FileType javascript set expandtab
 autocmd FileType typescript set tabstop=2
 autocmd FileType typescript set softtabstop=2
 autocmd FileType typescript set shiftwidth=2
+autocmd FileType typescript set smartindent
+autocmd FileType typescript set expandtab
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
