@@ -65,12 +65,10 @@ set nohlsearch
 syntax on
 
 " Indentación en JS/TS
-autocmd FileType javascript set tabstop=2
-autocmd FileType javascript set softtabstop=2
-autocmd FileType javascript set shiftwidth=2
-autocmd FileType typescript set tabstop=2
-autocmd FileType typescript set softtabstop=2
-autocmd FileType typescript set shiftwidth=2
+" set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+"
+autocmd FileType javascript set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab
+autocmd FileType typescript set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
@@ -138,3 +136,5 @@ set wildcharm=<C-Z>
 map <silent><leader>m <ESC>:emenu <C-Z>
 
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd BufNewFile,BufRead .releaserc set filetype=json
