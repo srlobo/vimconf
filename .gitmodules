@@ -67,3 +67,6 @@
 [submodule "vim-js-indent"]
 	path = vim-js-indent
 	url = https://github.com/jason0x43/vim-js-indent.git
+[submodule "YouCompleteMe"]
+	path = YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
