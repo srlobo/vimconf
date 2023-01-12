@@ -73,3 +73,21 @@
 [submodule "vim-terraform"]
 	path = vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "indentLine"]
+	path = indentLine
+	url = git@github.com:Yggdroot/indentLine.git
+[submodule "vim-yaml-folds"]
+	path = vim-yaml-folds
+	url = git@github.com:pedrohdz/vim-yaml-folds.git
+[submodule "vim-go"]
+	path = vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "coc.nvim"]
+	path = coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+[submodule "vim-yaml"]
+	path = vim-yaml
+	url = git@github.com:stephpy/vim-yaml.git
+[submodule "yaml-revealer"]
+	path = yaml-revealer
+	url = git@github.com:Einenlum/yaml-revealer.git
